@@ -1,5 +1,6 @@
 import streamlit as st
 import wikipedia
+import re
 
 st.set_page_config(page_title="Movie Plot Finder", layout="centered")
 st.title("🎬 Movie Plot Finder")
@@ -31,7 +32,9 @@ def get_summary(title, sentences=3):
         return None
 
 if st.button("Get Plot"):
+    # clean user input: strip whitespace and trailing punctuation
     q = (query or "").strip()
+    q = re.sub(r"[.,;:!?]+$", "", q)   # remove trailing punctuation like "," "." "?" "!"
     if not q:
         st.warning("Please enter a movie name.")
         st.stop()
