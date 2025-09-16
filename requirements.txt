@@ -1,4 +1,3 @@
-streamlit>=1.20.0
-wikipedia>=1.4.0
-wikipedia-api>=0.5.6
-wikipediaapi>=0.5.8
+streamlit==1.38.0
+wikipedia==1.4.0
+wikipedia-api==0.5.8
