@@ -1,4 +1,4 @@
-# 🎬 ATS Score Analysis — Movie Plot Finder
+# 🎬 Movie Plot Finder
 
 A Streamlit web app that fetches **movie plots** directly from Wikipedia.  
 Users can search for any movie and instantly read its full **Plot** section or a short summary if the plot is not available.  
