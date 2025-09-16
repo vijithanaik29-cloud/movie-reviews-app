@@ -3,7 +3,8 @@
 A Streamlit web app that fetches **movie plots** directly from Wikipedia.  
 Users can search for any movie and instantly read its full **Plot** section or a short summary if the plot is not available.  
 
-👉 **Live Demo:** [Try it on Streamlit Cloud](YOUR-STREAMLIT-LINK-HERE)  
+👉 **Live Demo:** [Try it on Streamlit Cloud: https://movie-reviews-app-rnvytcpskfz5gl9swc7xmj.streamlit.app/]
+
 
 ---
 
