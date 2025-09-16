@@ -11,8 +11,8 @@ import wikipedia
 import wikipediaapi
 
 # App meta
-st.set_page_config(page_title="ATS score analysis — Movie Plot Finder", layout="centered")
-st.title("🎬 ATS score analysis — Movie Plot Finder")
+st.set_page_config(page_title=" Movie Plot Finder", layout="centered")
+st.title("🎬  Movie Plot Finder")
 st.write("Type a movie name and get its plot/summary from Wikipedia. (No extra inputs required.)")
 
 # Sidebar options
