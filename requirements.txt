@@ -1,6 +1,2 @@
 streamlit
-transformers
-accelerate
 wikipedia
-sentencepiece
-torch
